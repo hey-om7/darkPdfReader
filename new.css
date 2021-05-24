@@ -65,8 +65,8 @@ nav ul li a:hover {
   margin-top: 50px;
 }
 .darkLogo {
-  width: 745px;
-  height: 745px;
+  width: 45%;
+  height: auto;
   position: absolute;
   left: 1100px;
   bottom: 100px;
