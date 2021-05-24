@@ -74,7 +74,9 @@ nav ul li a:hover {
   height: auto;
   position: absolute;
   left: 55%;
-  bottom: 100px;
+  top: 20%;
+  /* bottom: 20%; */
+  margin-bottom: 20%;
 }
 .appIconSupportingblur {
   width: 55%;
