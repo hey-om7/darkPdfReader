@@ -18,13 +18,15 @@
   background-image: linear-gradient(to bottom right, #1d1f3e, #000820, #030a26);
 }
 .darkpdfreaderHeading {
+  width: 75%;
   margin-left: 55px;
   margin-top: 15px;
   margin-right: 100px;
   color: white;
+  font-size: 3vw;
 }
 .menuContents {
-  width: 3000px;
+  width: 100%;
   display: flex;
   align-items: baseline;
 }
@@ -47,35 +49,36 @@ nav ul li a:hover {
 }
 
 .restMenuContents {
-  width: 2000px;
+  width: 50%;
   /* margin-top: 100; */
 }
 .appFeatures {
-  margin-top: 137px;
+  margin-top: 7%;
   color: white;
-  font-size: 54px;
+  font-size: 2.5vw;
 }
 .appSentence {
-  margin-left: 50px;
+  margin-left: 2.5%;
+  width: 40%;
   color: grey;
-  font-size: 24px;
+  font-size: 1.7vw;
   font-weight: normal;
 }
 .platformButtons {
-  margin-top: 50px;
+  margin-top: 7%;
 }
 .darkLogo {
   width: 45%;
   height: auto;
   position: absolute;
-  left: 1100px;
+  left: 55%;
   bottom: 100px;
 }
 .appIconSupportingblur {
-  width: 750;
-  height: 750px;
+  width: 55%;
+  height: 75%;
   position: absolute;
-  left: 800px;
-  top: 10000;
+  left: 47%;
+  top: 40%;
   bottom: 0px;
 }
