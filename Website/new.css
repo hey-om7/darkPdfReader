@@ -18,8 +18,8 @@
   background-image: linear-gradient(to bottom right, #1d1f3e, #000820, #030a26);
 }
 .darkpdfreaderHeading {
-  width: 75%;
-  margin-left: 55px;
+  width: 100%;
+  margin-left: 5%;
   margin-top: 15px;
   margin-right: 100px;
   color: white;
@@ -50,15 +50,16 @@ nav ul li a:hover {
 
 .restMenuContents {
   width: 50%;
-  /* margin-top: 100; */
+  margin-left: 10%;
 }
 .appFeatures {
   margin-top: 7%;
   color: white;
   font-size: 2.5vw;
+  margin-left: 5%;
 }
 .appSentence {
-  margin-left: 2.5%;
+  margin-left: 7.5%;
   width: 40%;
   color: grey;
   font-size: 1.7vw;
