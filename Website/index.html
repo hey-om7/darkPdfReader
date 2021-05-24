@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="new.css" />
+  </head>
+
+  <body>
+    <div class="ad">
+      <template class="ad__mobile">
+        <div class="container"></div>
+        // Mobile ad HTML code with inline script
+      </template>
+      <template class="ad__desktop">
+        <!-- // Desktop ad HTML code with inline script -->
+        <div class="desktopLead">
+          <div class="menuContents">
+            <a style="text-decoration: none" href="https://www.google.com">
+              <h1 class="darkpdfreaderHeading">Dark Pdf Reader</h1>
+            </a>
+            <div class="restMenuContents">
+              <nav>
+                <ul>
+                  <li>
+                    <a href="">Downloads</a>
+                  </li>
+                  <li>
+                    <a href="">Company</a>
+                  </li>
+                  <li>
+                    <a href="">Donations</a>
+                  </li>
+                  <li>
+                    <a href="">Terms and Conditions</a>
+                  </li>
+                  <li>
+                    <a href="">How to use</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="appFeatures">
+            <div class="feature1">
+              <h2>• Reduce eye strain</h2>
+            </div>
+            <div class="feature2">
+              <h2>• Collect and store pdfs</h2>
+            </div>
+            <div class="feature3">
+              <h2>• Hear text from pdf</h2>
+            </div>
+          </div>
+          <div class="appSentence">
+            <small>
+              Download the all in one easy to use ad free app from Google Play
+              Store and Mac
+            </small>
+          </div>
+          <div class="platformButtons">
+            <nav>
+              <ul>
+                <li>
+                  <a href=""
+                    ><img style="width: 200px" src="images/macbook.png"
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img style="width: 200px" src="images/googlePlay.png"
+                  /></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="appIcon">
+            <img src="images/blurBlue.png" class="appIconSupportingblur" />
+            <img src="images/darkLogo.png" class="darkLogo" />
+          </div>
+        </div>
+      </template>
+      <script>
+        const isMobile = matchMedia("(max-device-width: 500px)").matches;
+        const ad = document.currentScript.closest(".ad");
+        const content = ad.querySelector(
+          isMobile ? ".ad__mobile" : ".ad__desktop"
+        ).content;
+
+        ad.appendChild(document.importNode(content, true));
+      </script>
+    </div>
+  </body>
+</html>
