@@ -68,6 +68,11 @@ nav ul li a:hover {
 .platformButtons {
   margin-top: 7%;
   margin-left: 5%;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 .darkLogo {
   width: 45%;
@@ -77,6 +82,11 @@ nav ul li a:hover {
   top: 20%;
   /* bottom: 20%; */
   margin-bottom: 20%;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 .appIconSupportingblur {
   width: 55%;
@@ -85,4 +95,9 @@ nav ul li a:hover {
   left: 47%;
   top: 40%;
   bottom: 0px;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
