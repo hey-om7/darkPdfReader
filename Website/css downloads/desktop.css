@@ -75,11 +75,8 @@ nav ul li a:hover {
 .downloadsLogo {
   width: 35%;
   height: auto;
-  /* position: absolute; */
-
   left: 55%;
   top: 20%;
-  /* bottom: 20%; */
   margin-top: 7%;
   margin-bottom: 20%;
   margin-left: 5%;
@@ -90,6 +87,7 @@ nav ul li a:hover {
   -ms-user-select: none;
 }
 .blur1 {
+  z-index: 0;
   width: 55%;
   height: 75%;
   position: absolute;
@@ -109,11 +107,6 @@ nav ul li a:hover {
   left: 5%;
   top: 20%;
   bottom: 0px;
-  /* user-select: none;
-  -moz-user-select: none;
-  -webkit-user-drag: none;
-  -webkit-user-select: none;
-  -ms-user-select: none; */
 }
 
 ul#horizontalBtns {
