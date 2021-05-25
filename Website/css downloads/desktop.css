@@ -133,6 +133,5 @@ ul#showCaseBlobs li {
 .showCaseBlob {
   left: 50%;
   top: 65%;
-  /* margin-left: 200%; */
   position: absolute;
 }
