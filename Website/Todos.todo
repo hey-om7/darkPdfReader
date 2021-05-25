@@ -1,3 +1,5 @@
-@critical :
-    ☐ the website not compatible with ipads
-    ☐ add the mobile version of the website
+index:
+    @critical :
+        ✔ the index not compatible with ipads @done(21-05-25 07:37)
+        ☐ add the mobile version of the index.html
+        ☐ rotation in ipad causing ui hamper
