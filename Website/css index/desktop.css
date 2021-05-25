@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  background-image: url("images/fullUI.png");
+
+  /* background-image: linear-gradient(black, grey); */
+}
+.desktopLead {
+  padding: 50px;
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to bottom right, #1d1f3e, #000820, #030a26);
+}
+.darkpdfreaderHeading {
+  width: 100%;
+  margin-left: 5%;
+  margin-top: 15px;
+  margin-right: 100px;
+  color: white;
+  font-size: 3vw;
+}
+.menuContents {
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+}
+nav {
+  flex: 1;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0px 2%;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #d6d9f1;
+  /* text-size-adjust: 2px; */
+  font-size: 15px;
+}
+nav ul li a:hover {
+  color: #b4bdff;
+}
+
+.restMenuContents {
+  width: 50%;
+  margin-left: 10%;
+}
+.appFeatures {
+  margin-top: 7%;
+  color: white;
+  font-size: 2.5vw;
+  margin-left: 5%;
+}
+.appSentence {
+  margin-left: 7.5%;
+  width: 40%;
+  color: grey;
+  font-size: 1.7vw;
+  font-weight: normal;
+}
+.platformButtons {
+  margin-top: 7%;
+  margin-left: 5%;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+.darkLogo {
+  width: 45%;
+  height: auto;
+  position: absolute;
+  left: 55%;
+  top: 20%;
+  /* bottom: 20%; */
+  margin-bottom: 20%;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+.appIconSupportingblur {
+  width: 55%;
+  height: 75%;
+  position: absolute;
+  left: 47%;
+  top: 40%;
+  bottom: 0px;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
