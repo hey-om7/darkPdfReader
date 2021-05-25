@@ -87,7 +87,7 @@ nav ul li a:hover {
   -ms-user-select: none;
 }
 .blur1 {
-  z-index: 0;
+  opacity: 0.5;
   width: 55%;
   height: 75%;
   position: absolute;
